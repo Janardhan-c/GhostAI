@@ -52,7 +52,7 @@ class GhostOverlay(QWidget):
         inner_layout = QVBoxLayout(main_container)
 
         header_layout = QHBoxLayout()
-        title = QLabel("♊ Gemini Vision Layer")
+        title = QLabel("Gemini Vision Layer")
         close_btn = QPushButton("×")
         close_btn.setObjectName("CloseBtn")
         close_btn.clicked.connect(self.close)
